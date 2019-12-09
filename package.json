@@ -1,10 +1,10 @@
 {
   "name": "moodlemobile",
   "version": "3.7.2",
-  "description": "The official app for Moodle.",
+  "description": "The official app for Schoolonline.",
   "author": {
-    "name": "Moodle Pty Ltd.",
-    "email": "mobile@moodle.com"
+    "name": "IASE",
+    "email": "harryiase@gmail.com"
   },
   "config": {
     "ionic_webpack": "./config/webpack.config.js",
@@ -181,8 +181,8 @@
   },
   "main": "desktop/electron.js",
   "build": {
-    "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    "appId": "com.moodle.iasedesktop",
+    "productName": "Schoolonline Desktop",
     "files": [
       "desktop/electron.js",
       "www/**/*",
@@ -203,7 +203,7 @@
     },
     "protocols": [
       {
-        "name": "Moodle Mobile URL",
+        "name": "Schoolonline Mobile URL",
         "schemes": [
           "moodlemobile"
         ],
